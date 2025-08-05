@@ -1,0 +1,1 @@
+To install this plugin, recompile wireshark with this directory ("palma") in $wireshark/plugins/epan using "ninja install".
