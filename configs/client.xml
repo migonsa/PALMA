@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClientConfig>
+	<!--InterfaceName id="h1-eth0" /-->
+	<!--PreassignedSrcAddress addr="0x01FACE" /-->
+	<!--KnownServerAddress addr="" /-->
+	<ClaimAddressSet addr="0x0A0000000000" count="7500" /> 
+	<MinAssignedAddresses size="1" />
+	<MaxAssignedAddresses size="15" />
+	<RenewalActive value="true" />
+	<RandomAutoAssign value="false" />
+	<Verbose value="true" />
+	<!--ClientStationId id="" /-->
+	<!--VendorParameter id="" /-->
+</ClientConfig>
+

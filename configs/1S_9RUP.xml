@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClientConfig>
+	<KnownServerAddress addr="0x100ABCDEF001" />
+	<ClaimAddressSet addr="0x0A0000000000" count="30000"/> 
+	<MinAssignedAddresses size="10" />
+	<MaxAssignedAddresses size="4000" />
+	<RenewalActive value="true"/>
+	<VendorParameter id="CISCO" />
+</ClientConfig>

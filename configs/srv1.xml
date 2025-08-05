@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerConfig>
+	<!--InterfaceName id="" /-->
+	<SrcAddress addr="0x100ABCDEF001" /> 
+	<UnicastAddressSet addr="0x1ACA00000000" count="10000" /> 
+	<MulticastAddressSet addr="0x1BCB00000000" count="500000" /> 
+	<Unicast64AddressSet addr="0x1ACA000000000000" count="98000" /> 
+	<Multicast64AddressSet addr="0x1BCB000000000000" count="495000" /> 
+	<MaxAssignedUnicast size="20" />
+	<MaxAssignedMulticast size="5000" />
+	<MaxAssignedUnicast64 size="1000" />
+	<MaxAssignedMulticast64 size="5000" />
+	<MaxAssignedDefault size="1" />
+
+	<UnicastLifetime value="15" />
+	<MulticastLifetime value="60" />
+	<Unicast64Lifetime value="60" />
+	<Multicast64Lifetime value="60" />
+	<ReserveLifetime value="2" />
+
+	<RenewalActive value="false" />
+	<DefaultMulticast value="false" />
+	<Default64bitSet value="false" />
+	<AutoassignObjectionActive value="true" />
+	<AlternateSetActive value="true" />
+
+	<NetworkId id="SERVER" />
+	<VendorParameter id="NOKIA" />
+</ServerConfig>
+
+
+
